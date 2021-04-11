@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AESDemo.exe" version="1.0.0.3" publicKeyToken="3e76dc0b10552a86" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Webalys-Kameleon.pics-Key.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AESDemo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AESDemo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AESDemo.exe" size="544256">
+      <assemblyIdentity name="AESDemo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jZ9g6Q4bmvFUxuSVfOzR7MeqmPs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Webalys-Kameleon.pics-Key.ico" size="169754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a+j9nWskmbeFQH/GCSRz4LZe+X8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SMILE\Baamall" issuerKeyHash="09c06225caa4647bd02c8cca4460006f81054380" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f5Y2giBKd6tUZdWdpgemrWOdVmE=</DigestValue></Reference></SignedInfo><SignatureValue>AHiGoeVQJ4d8HO+coiHiSXyw8ynpOVdGyfX6aVzua57O1z4NOqswcCoDtloWWUU3OKQA3atGThFowOOuxCR5I4NpEtl6UY16g56rN/zb95IC9T9by2qE2TlBESB4X3E7KuRApnSq5PnWwWpAuGz0RC61UTxSS6j1JMsjDuGCQNs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tDOrs2u5wcucgy3y2edDxJQbnd4sjh0YrQeD7yaDgme1KiEXHm3jeKmZ0sb96DBl5XYFyBk6ENHlDqCVbYOWYcNnotnwQ3kMyxmGV8+BSbjc3olWCaBZAASWP2uww7cVTGRchbtSFUq2vtz7i+SXZIb/40P79aMwANR0ZnqRQdc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="61569d63ada607a69dd56554ab774a208236967f" Description="" Url=""><as:assemblyIdentity name="AESDemo.exe" version="1.0.0.3" publicKeyToken="3e76dc0b10552a86" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SMILE\Baamall</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tot2x5e7bG56DC5USV7Ped7DA2U=</DigestValue></Reference></SignedInfo><SignatureValue>KqyxyF7+ZtvyYlE+yu8oYMnUBZyYRpd4jvpRvwNQRsad09ZmRKH9T8d8D1mbTtTp94C7a/5CehP+BuGFLcIc58DRu51rIUpixjG9gWnHuJGHxzANSZfTJyarVKWc0GtE+ci+cb5MLHesbRgP4yQCGX0Yvs/xiTp8ZWvcaCmrpJY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tDOrs2u5wcucgy3y2edDxJQbnd4sjh0YrQeD7yaDgme1KiEXHm3jeKmZ0sb96DBl5XYFyBk6ENHlDqCVbYOWYcNnotnwQ3kMyxmGV8+BSbjc3olWCaBZAASWP2uww7cVTGRchbtSFUq2vtz7i+SXZIb/40P79aMwANR0ZnqRQdc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQG0wrMe9tmKVNseIeG2qp/jANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAUwBNAEkATABFAFwAQgBhAGEAbQBhAGwAbDAeFw0xODEyMTUxODQyMDJaFw0xOTEyMTYwMDQyMDJaMCUxIzAhBgNVBAMeGgBTAE0ASQBMAEUAXABCAGEAYQBtAGEAbABsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0M6uza7nBy5yDLfLZ50PElBud3iyOHRitB4PvJoOCZ7UqIRcebeN4qZnSxv3oMGXldgXIGToQ0eUOoJVtg5Zhw2ei2fBDeQzLGYZXz4FJuNzeiVYJoFkABJY/a7DDtxVMZFyFu1IVSra+3PuL5Jdkhv/jQ/v1ozAA1HRmepFB1wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACFzXV72saClk/LBGtzM9cuXEgIDvKEB1NJzCSqn3/oytHy0yeOb70JeUge9KBf9xxO2nxlg5EH+xJ/FElqtLggM/zahLGqiisgKwCPAsonTli0CioSm/OJLMVZ7751CFtjTzYMBQbRxpb84QYnIgVtrbDXoVHPyB+LEzrWUHQxc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
